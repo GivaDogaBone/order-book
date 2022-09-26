@@ -77,5 +77,5 @@ Check out the file test.sh for more information on testing.
 ## Refences
 
 - https://en.wikipedia.org/wiki/Order_book_(trading)
-- https://www.youtube.com/watch?v=zeg3B7gMCNQ
+- https://www.youtube.com/watch?v=BUG7Mv-sPIY&list=PLIkrF4j3_p-3fA9LyzSpT6yFPnqvJ02LS
 - https://www.investopedia.com/terms/o/order-book.asp
