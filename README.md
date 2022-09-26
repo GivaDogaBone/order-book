@@ -1,4 +1,4 @@
-# order-book
+# order-book github repo
 Trade Engine - Order Book created using Spring Boot Framework
 
 # Order Book
@@ -68,7 +68,7 @@ Check out the file test.sh for more information on testing.
 
 - Linux (Ubuntu) OS
 - Java SDK
-- Spring Boot STS (Eclipse)
+- Spring Boot
 - Maven
 - Curl
 
