@@ -41,7 +41,7 @@ curl -H "Content-Type: application/json" -d '{"name":"CS.D.AUDUSD.MINI.IP"}' -X 
 
 printf "\nOffer List\n"
 curl -H "Content-Type: application/json" -d '{"name":"CS.D.AUDUSD.MINI.IP"}' -X POST http://localhost:8090/market/offer/get >> offer.json
-comment
+
 
 # Macquarie Group
 curl http://localhost:8090/market/add/item/MGQ.ASX
@@ -84,3 +84,21 @@ curl -H "Content-Type: application/json" -d '{"name":"MGQ.ASX"}' -X POST http://
 
 printf "\nOffer List\n"
 curl -H "Content-Type: application/json" -d '{"name":"MGQ.ASX"}' -X POST http://localhost:8090/market/offer/get >> offer.json
+comment
+
+
+# Rio Tinto
+curl http://localhost:8090/market/add/item/rio.asx
+
+printf "\n"
+curl -H "Content-Type: application/json" -d '{"name":"rio.asx", "price":"100", "qty":"20"}' -X POST http://localhost:8090/market/bid/add
+
+printf "\n"
+curl -H "Content-Type: application/json" -d '{"name":"rio.asx", "price":"100", "qty":"20"}' -X POST http://localhost:8090/market/offer/add
+
+printf "\nBid List\n"
+curl -H "Content-Type: application/json" -d '{"name":"rio.asx"}' -X POST http://localhost:8090/market/bid/get >> bid.json
+
+printf "\nOffer List\n"
+curl -H "Content-Type: application/json" -d '{"name":"rio.asx"}' -X POST http://localhost:8090/market/offer/get >> offer.json
+
