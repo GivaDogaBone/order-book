@@ -26,14 +26,15 @@ mvn package
 To run the package:
 
 ```
-java -jar target/orderbook-0.0.1-SNAPSHOT.jar
+mvn spring-boot:run
 ```
 
 or
 
 ```
-mvn spring-boot:run
+java -jar target/orderbook-0.0.1-SNAPSHOT.jar
 ```
+
 
 ## Test Using Curl
 
