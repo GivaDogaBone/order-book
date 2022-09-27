@@ -4,7 +4,7 @@ Trade Engine - Order Book created using Spring Boot Framework
 # Order Book
 Order Book is a subsystem of an exchange, normally is called the trade engine.
 
-It is at its initial stage of development at the moment.
+It is at its initial stage of development at the moment and ideally a database will act as the persistent data source but for now data are being held in java memory data structure.
 
 ## Purpose
 
