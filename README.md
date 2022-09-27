@@ -29,7 +29,20 @@ To run the package:
 java -jar target/orderbook-0.0.1-SNAPSHOT.jar
 ```
 
+or
+
+```
+mvn spring-boot:run
+```
+
 ## Test Using Curl
+
+Test using the included test script 
+```
+test.sh
+```
+
+Or individually testing each requests:
 
 Add item to order book list
 ```
@@ -66,9 +79,9 @@ Check out the file test.sh for more information on testing.
 
 ## Dev Environment Requirements
 
-- Linux (Ubuntu) OS
+- Linux (Ubuntu) OS or Windows OS 
 - Java SDK
-- Spring Boot
+- Spring Boot STS
 - Maven
 - Curl
 
