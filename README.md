@@ -13,6 +13,8 @@ It is at its initial stage of development at the moment and ideally a database w
 
 ## Purpose
 
+- This repository is only for educational purposes only.
+- Have a generic template for other developers to share with the community.
 - There is not much open source trade engine out there at the moment, with that, this project would like to address that by the creation of this project.
 - Have a trade engine that can be used by anyone wanting to understand what a trade engine looks like, or simply use it in an exchange system.
 
