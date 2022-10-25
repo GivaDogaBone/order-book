@@ -22,6 +22,10 @@ It is at its initial stage of development at the moment and ideally a database w
 
 - Be able to handle large amount of transactions per hour using cheap/affordable off-the-shelf resources.
 
+## Future changes
+
+- Be able to have thread safe.
+
 ## Building It
 
 This project uses Maven to build the project.
@@ -106,3 +110,4 @@ Check out the file test.sh for more information on testing.
 - https://en.wikipedia.org/wiki/Order_book_(trading)
 - https://www.youtube.com/watch?v=BUG7Mv-sPIY&list=PLIkrF4j3_p-3fA9LyzSpT6yFPnqvJ02LS
 - https://www.investopedia.com/terms/o/order-book.asp
+- https://www.baeldung.com/java-thread-lifecycle
